@@ -87,3 +87,16 @@ console.log(mappedArray);
 
 // .filter 
 
+console.log("/////////////////////////////");
+
+const filteredArray = ar.filter(function(value, index, ar){
+    return value > this.num
+}, {num: 1
+});
+
+console.log(ar);
+
+console.log(filteredArray);
+
+// reduce 
+
