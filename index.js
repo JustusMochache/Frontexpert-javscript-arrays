@@ -100,3 +100,22 @@ console.log(filteredArray);
 
 // reduce 
 
+console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+// const sum = ar.reduce(function(accumulator, currentValue, index, array){
+//     return accumulator + currentValue;
+// }, 0);
+
+const sum = ar.reduce(function(accumulator, currentValue){
+    return accumulator + currentValue;
+}, 0);
+
+console.log(ar);
+console.log(sum);
+
+// sorting 
+
+console.log(ar);
+ar.push(9,8,7)
+console.log(ar);
+ar.sort()
+console.log(ar);
