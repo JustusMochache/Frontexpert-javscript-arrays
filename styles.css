@@ -1,0 +1,6 @@
+nav {
+    background-color: rgb(139, 139, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
