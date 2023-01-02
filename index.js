@@ -117,5 +117,10 @@ console.log(sum);
 console.log(ar);
 ar.push(9,8,7)
 console.log(ar);
-ar.sort()
+ar.sort(comparedNumbers);
+function comparedNumbers(firstNum, secNum){
+    // return firstNum - secNum; ascending order
+
+    return secNum - firstNum ; // descending order
+}
 console.log(ar);
